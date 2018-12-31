@@ -18,6 +18,6 @@ def now_serving(array)
   if array == []
     puts "There is nobody waiting to be served!"
   else
-    puts "something"
+    puts "currently serving #{array.first}"
   end
 end
