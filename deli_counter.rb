@@ -5,6 +5,6 @@ def line(array)
   else
     str = "The line is currently "
     array.each_with_index { |element, index| str <<"#{index + 1}. #{element} " }
-    newar.each { |item| puts item.chomp }
+    puts str
   end
 end
