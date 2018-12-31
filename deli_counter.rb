@@ -5,6 +5,6 @@ def line(array)
   else
     newar = []
     array.each_with_index { |element, index| newar.push("#{index + 1}. #{element} ") }
-    puts newar
+    newar.each { |item| puts item }
   end
 end
