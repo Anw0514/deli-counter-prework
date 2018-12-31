@@ -17,3 +17,7 @@ end
 def now_serving(array)
   if array == []
     puts "The line is currently empty"
+  else
+    puts "something"
+  end
+end
