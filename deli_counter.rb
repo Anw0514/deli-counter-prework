@@ -13,3 +13,7 @@ def take_a_number(array, element)
   array.push(element)
   puts "Welcome, #{element}. You are number #{array.index(element) + 1} in line."
 end
+
+def now_serving(array)
+  if array == []
+    puts "The line is currently empty"
