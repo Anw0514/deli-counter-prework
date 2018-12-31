@@ -11,6 +11,5 @@ end
 
 def take_a_number(array, element)
   array.push(element)
-  index = 
-  puts "Welcome, #{element}. You are number #{index + 1}"
+  puts "Welcome, #{element}. You are number #{array.index(element) + 1}"
 end
